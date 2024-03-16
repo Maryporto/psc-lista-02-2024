@@ -1,0 +1,31 @@
+{
+funcao inicio()
+{
+real nota1, nota2, nota3, nota4, media
+nota1=1
+nota2=2
+nota3=3
+nota4=4
+
+escreva( nota1+nota2+nota3+nota4)
+escreva("\n Digite a nota do 1o bimestre: ")
+
+leia(nota1)
+
+escreva("\n Digite a nota do 2o bimestre: ")
+
+leia(nota2)
+
+escreva("\n Digite a nota do 3o bimestre: ")
+
+leia(nota3)
+
+escreva("\n Digite a nota do 4o bimestre: ")
+
+leia(nota4)
+
+media = (nota1 + nota2 + nota3 + nota4) / 4
+escreva("\n A média das notas é: ", media)
+
+}
+}
