@@ -1,0 +1,23 @@
+{
+funcao inicio()
+{
+
+real precolitro, litroscomprados, valortotal
+
+precolitro= 1.0
+litroscomprados=2.0
+valortotal=3.0
+
+escreva("\n Digite o preço do litro da gasolina: ")
+
+leia(precolitro)
+
+escreva("\n Digite a quantidade de litros comprados: ")
+
+leia(litroscomprados)
+valortotal = precolitro * litroscomprados
+
+escreva("\n O valor total a ser pago pelo cliente é: ", valortotal)
+
+       }
+}
