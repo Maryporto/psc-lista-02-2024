@@ -1,0 +1,30 @@
+programa
+{
+funcao inicio()
+{
+real precoalemanha, precoportugal, precoitalia
+inteiro qtdpessoasalemanha, qtdpessoasportugal, qtdpessoasitalia
+real valortotalviagem
+
+escreva("\n Digite o preço da viagem para a Alemanha: ")
+leia(precoalemanha)
+
+escreva("\n Digite o preço da viagem para Portugal: ")
+leia(precoportugal)
+
+escreva("\n Digite o preço da viagem para a Itália: ")
+leia(precoitalia)
+
+escreva("\n Digite a quantidade de pessoas para a Alemanha: ")
+leia(qtdpessoasalemanha)
+
+escreva("\n Digite a quantidade de pessoas para Portugal: ")
+leia(qtdpessoasportugal)
+
+escreva(“\n Digite quantidade de pessoas para Itália: ”)
+leia (qtdpessoasitalia)
+
+valortotalviagem = ( precoalemanha * qtdpessoasalemanha) + (precoportugal *
+qtdpessoasportugal) + ( precoitalia * qtdpessoasitalia)
+
+escreva (“\n O valor total da viagem é : “ , valortotalviagem)
